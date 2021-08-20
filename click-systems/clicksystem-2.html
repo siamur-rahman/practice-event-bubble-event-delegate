@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>events</title>
+</head>
+
+<body>
+   <h1>Event niye click baji</h1>
+
+   <!-- sys-1 -->
+   <button onclick="document.body.style.backgroundColor='yellow'">click me yellow direct inline </button>
+   <!-- sys-2 -->
+   <button onclick="makeRed()">click me red enternal script</button>
+   <button onclick="makegray()">click me gray external script</button>
+
+
+   <script>
+
+
+      function makeRed() {
+         document.body.style.backgroundColor = 'red';
+      }
+   </script>
+
+   <script src="event.js"></script>
+</body>
+
+</html>

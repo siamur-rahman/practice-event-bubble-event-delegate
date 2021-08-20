@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Event Delegate</title>
+
+</head>
+
+<body>
+   <h2>Event Delegate</h2>
+
+   <ul id="item-container">
+      <li class="item">Lorem, ipsum.</li>
+      <li class="item">Architecto, odio?</li>
+      <li class="item">Nostrum, magni.</li>
+      <li class="item">Voluptatibus, veniam.</li>
+      <li class="item">Aspernatur, accusamus.</li>
+      <li class="item">Assumenda, fugiat.</li>
+   </ul>
+
+
+
+
+   <script>
+
+
+
+
+
+
+/*   // system-3
+
+            const items = document.getElementsByClassName('item');
+            for (const item of items) {
+               // console.log(item);
+               item.addEventListener('click', function (event) {
+                  // console.log(event.target.parentNode);
+      
+                  event.target.parentNode.removeChild(event.target);
+   
+               })
+            }*/
+   
+    /*  
+      // system-2
+      
+            const items = document.getElementsByClassName('item');
+            for (const item of items) {
+               // console.log(item);
+               item.addEventListener('click', function (event) {
+                  // console.log(event.target.parentNode);
+      
+                  event.target.parentNode.removeChild(item);
+      
+               })
+            }*/
+
+
+      /*
+      // SYSTEM-1 EASY SYSTEM
+            const items = document.getElementsByClassName('item');
+            for (const item of items) {
+               // console.log(item);
+               item.addEventListener('click', function () {
+                  // console.log('remove item');
+                  const parent = document.getElementById('item-container').removeChild(item);
+               })
+            }*/
+   </script>
+
+</body>
+
+</html>
